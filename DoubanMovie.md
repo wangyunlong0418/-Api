@@ -1155,3 +1155,17 @@ json 示例：
     }
 
 解析：同[短评](#playing)
+3、电影搜索
+接口：https://api.douban.com/v2/movie/search
+ 
+访问参数：
+start : 数据的开始项
+count：单页条数
+q：要搜索的电影关键字
+tag：要搜索的电影的标签
+ 
+如：
+搜索电影《神秘巨星》：
+https://api.douban.com/v2/movie/search?q=神秘巨星&start=0&count=10
+搜索喜剧类型的电影：
+https://api.douban.com/v2/movie/search?tag=喜剧&start=0&count=10
